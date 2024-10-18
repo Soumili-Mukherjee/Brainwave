@@ -23,6 +23,7 @@ import Button from "./Components/Button"
 import ButtonGradient from "./assets/svg/ButtonGradient"
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
+import Benefit from './Components/Benefit'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
          
       </div>
       <ButtonGradient />
+      <Benefit/>
     </>
   )
 }
